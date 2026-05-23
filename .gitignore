@@ -2,8 +2,8 @@
 out/
 cache/
 
-# Dependencies (reinstall with: forge install)
-lib/
+# Foundry dependencies (reinstall with: forge install)
+/lib/
 
 # Environment / secrets
 .env
