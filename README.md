@@ -84,19 +84,28 @@ forge test -v
 
 Expected output:
 ```
-Ran 11 tests for test/SynapseProtocol.t.sol:SynapseProtocolTest
+Ran 20 tests for test/SynapseProtocol.t.sol:SynapseProtocolTest
+[PASS] test_AlreadyInitialized()
+[PASS] test_AuthorityReleaseMilestone()
 [PASS] test_CampaignLifecycle()
+[PASS] test_CancelBooking()
 [PASS] test_CommitRevealGrade()
 [PASS] test_CooldownNotElapsed()
+[PASS] test_DoubleBookingReverts()
 [PASS] test_HashMismatch()
 [PASS] test_MintIpnft()
 [PASS] test_MintIpnftGradeInsufficient()
+[PASS] test_NoPendingUnstake()
+[PASS] test_PopsShieldFlaggedBlocksMint()
+[PASS] test_PopsShieldPendingBlocksMint()
 [PASS] test_RegisterAndBookLab()
 [PASS] test_RequestAndWithdrawUnstake()
+[PASS] test_RouteDataQueryRevenue()
 [PASS] test_RouteInferenceRevenue()
 [PASS] test_SlashOperator()
 [PASS] test_StakeSynapse()
-11 passed
+[PASS] test_SubmitExperimentResult()
+20 passed
 ```
 
 ---
